@@ -216,7 +216,7 @@ export default function App() {
             <AccordionSummary expandIcon={<ArrowDownwardIcon sx={{ color: "#FFFFFF" }} />}>
                 <Box display="flex" alignItems="center" gap={1}>
                     <Flag code="SA" height={24} width={24} />
-                    <Typography variant="h6" sx={{ fontFamily: "var(--font-awal-ramadhan)" }}>
+                    <Typography variant="h6">
                         Comida Árabe
                     </Typography>
                 </Box>
