@@ -191,7 +191,7 @@ export default function App() {
             margin: '0 auto 16px',
         }}
         />
-        <Typography variant="h2" sx={{color: "#ff9900ff",}}>
+        <Typography variant="h2" sx={{color: "#ff9900ff", fontFamily: "var(--font-awal-ramadhan)", fontSize: "2rem",}}>
           Catering Farid
         </Typography>
         <Typography variant="h6" sx={{ mt: 2, mx: 'auto', px: 2, textAlign: 'justify' }}>
@@ -216,7 +216,9 @@ export default function App() {
             <AccordionSummary expandIcon={<ArrowDownwardIcon sx={{ color: "#FFFFFF" }} />}>
                 <Box display="flex" alignItems="center" gap={1}>
                     <Flag code="SA" height={24} width={24} />
-                    <Typography variant="h6">Comida Árabe</Typography>
+                    <Typography variant="h6" sx={{ fontFamily: "var(--font-awal-ramadhan)" }}>
+                        Comida Árabe
+                    </Typography>
                 </Box>
             </AccordionSummary>
             <AccordionDetails>
@@ -282,10 +284,10 @@ export default function App() {
                             </Box>
                             
                             <CardContent>
-                                <Typography variant="h6" component="div" gutterBottom sx={{ fontWeight: 'bold', color: "#506a77" }}>
+                                <Typography variant="h6" component="div" gutterBottom sx={{ fontWeight: 700, color: "#506a77", fontFamily: "var(--font-montserrat)"}}>
                                 {torta.nombre}
                                 </Typography>
-                                <Typography variant="body1" color="text.secondary" sx={{whiteSpace: "pre-line", color: "#506a77"}}>
+                                <Typography variant="body1" color="text.secondary" sx={{whiteSpace: "pre-line", color: "#506a77", fontFamily: "var(--font-montserrat)"}}>
                                 {torta.descripcion}
                                 </Typography>
                             </CardContent>
@@ -375,10 +377,10 @@ export default function App() {
                             </Box>
                             
                             <CardContent>
-                                <Typography variant="h6" component="div" gutterBottom sx={{ fontWeight: 'bold', color: "#506a77" }}>
+                                <Typography variant="h6" component="div" gutterBottom sx={{ fontWeight: '700', color: "#506a77", fontFamily: "var(--font-montserrat)" }}>
                                 {torta.nombre}
                                 </Typography>
-                                <Typography variant="body1" color="text.secondary" sx={{whiteSpace: "pre-line", color: "#506a77"}}>
+                                <Typography variant="body1" color="text.secondary" sx={{whiteSpace: "pre-line", color: "#506a77", fontFamily: "var(--font-montserrat)" }}>
                                 {torta.descripcion}
                                 </Typography>
                             </CardContent>
@@ -468,10 +470,10 @@ export default function App() {
                             </Box>
                             
                             <CardContent>
-                                <Typography variant="h6" component="div" gutterBottom sx={{ fontWeight: 'bold', color: "#506a77" }}>
+                                <Typography variant="h6" component="div" gutterBottom sx={{ fontWeight: '700', color: "#506a77", fontFamily: "var(--font-montserrat)" }}>
                                 {torta.nombre}
                                 </Typography>
-                                <Typography variant="body1" color="text.secondary" sx={{whiteSpace: "pre-line", color: "#506a77"}}>
+                                <Typography variant="body1" color="text.secondary" sx={{whiteSpace: "pre-line", color: "#506a77", fontFamily: "var(--font-montserrat)" }}>
                                 {torta.descripcion}
                                 </Typography>
                             </CardContent>
