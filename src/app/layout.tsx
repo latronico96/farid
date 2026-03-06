@@ -1,18 +1,5 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import { Montserrat } from "next/font/google";
-
-export const awalRamadhan = localFont({
-  src: "./fonts/aAwalRamadhan.ttf",
-  variable: "--font-awal-ramadhan",
-});
-
-export const montserrat = Montserrat({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-montserrat",
-});
-
+import { montserrat, awalRamadhan } from "../fonts";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://shawarmafarid.com.ar"),
